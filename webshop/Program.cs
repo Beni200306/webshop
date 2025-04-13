@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<WebshopDB>();
 builder.Services.AddTransient<IRepository<Product>, ProductRepository>();
+builder.Services.AddSingleton<ICart, Cart>();
 
 
 

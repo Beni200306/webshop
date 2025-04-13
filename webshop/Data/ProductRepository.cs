@@ -33,7 +33,7 @@ namespace webshop.Data
 
         public Product Read(int id)
         {
-            throw new NotImplementedException();
+            return db.Products.FirstOrDefault(x=>x.ID==id);
         }
     }
 }

@@ -14,15 +14,15 @@
 
         </header>
         <div>
-            <table>
-                <tr><th>Name</th> <th>Quantity</th> <th>Age</th></tr>
+            <table class="table table-striped">
+                <tr><th>Name</th> <th>Quantity</th> <th>18+</th><th>Action</th></tr>
             @foreach (Product item in Model)
             {
                 @:<tr>
                     @:<td>@item.Name</td>
                     @:<td>@item.Quantity</td>
                     @:<td>@item.OverEighteen</td>
-                    @:<td ><a href="/Shop/AddCart?productId=@item.ID" class="m-1 btn btn-primary btn-sm mg-5">Shop</a></td>
+                    @:<td ><a href="/Shop/AddCart?productId=@item.ID" class="m-1 btn btn-primary btn-sm mg-5">Add to cart</a></td>
                 @:</tr>
             }
         </table>

@@ -164,3 +164,4 @@ D:\egyetem\prog\fullstack\webshop\webshop\obj\Debug\net8.0\webshop.pdb
 D:\egyetem\prog\fullstack\webshop\webshop\obj\Debug\net8.0\webshop.genruntimeconfig.cache
 D:\egyetem\prog\fullstack\webshop\webshop\obj\Debug\net8.0\ref\webshop.dll
 D:\egyetem\prog\fullstack\webshop\webshop\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\egyetem\prog\fullstack\webshop\webshop\obj\Debug\net8.0\webshop.sourcelink.json
